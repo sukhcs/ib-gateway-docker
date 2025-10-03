@@ -50,10 +50,10 @@ services:
       - "4001:4003"
       - "4002:4004"
       - "5900:5900"
-    networks:
-      - trade-net
+#     networks:
+#       - trade-net
 
-networks:
-  trade-net:
-    external: true
-    name: trade-net
+# networks:
+#   trade-net:
+#     external: true
+#     name: trade-net
